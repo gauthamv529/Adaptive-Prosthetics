@@ -1,11 +1,11 @@
 
 #Explanation for Rich Sutton's Tile Coder#
-  * tiles                   ; a provided array for the tile indices to go into
-  * starting-element        ; first element of "tiles" to be changed (typically 0)
-  * num-tilings             ; the number of tilings desired
-  * memory-size             ; the number of possible tile indices
-  * floats                  ; a list of real values making up the input vector
-  * ints                    ; list of optional inputs to get different hashings
+  * *tiles*                   : a provided array for the tile indices to go into
+  * *starting-element*        : first element of "tiles" to be changed (typically 0)
+  * *num-tilings*             : the number of tilings desired
+  * *memory-size*             : the number of possible tile indices
+  * *floats*                  : a list of real values making up the input vector
+  * *ints*                    : list of optional inputs to get different hashings
   
 
 The float variables will be gridded at unit intervals, so generalization will be by approximately 1 in each direction, and any scaling will have 
