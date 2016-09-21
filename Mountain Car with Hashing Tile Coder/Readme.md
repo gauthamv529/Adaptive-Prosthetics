@@ -16,3 +16,5 @@ It is recommended by the UNH folks that numtilings be a power of 2, e.g., 16.
 My understanding of the above is that the input space is infinite (Real number space) and the grids are at unit intervals (for e.g., a 1D space would have intervals at 1,2,3,.. ).
 Scaling the inputs should be done accordingly. 
 Note: Inputs should be scaled before feeding it as input to the tilecoder.
+
+If your memory size is 4096 and no. of tilings = 16, no. of floats = 2, the grid size would be = 256 (i.e., 16 x 16). All dimensions, i.e., floats are discretized by the same amount, i.e., same grid size like a cube.   
